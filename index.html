@@ -9,37 +9,71 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 <body>
-        <div class="container">
-    <nav class="nav">
+    
+    <nav>
+        <div class="row">
+    <div class="col-lg-1"></div>
+
+ <div class="col-lg-3">
+      <li class="nav-item">
+         <a href="index.html">HOME </a>
+         <a href="#shop">SHOP </a>
+         <a href="#about">ABOUT ME</a>
+     </li>
+ </div>
+
+<div class="col-lg-4">
      <li class="nav-item">
-        <a href="index.html">HOME </a>
-    </li>
-    <li class="nav-item">
-        <a href="#shop">SHOP </a>
-    </li>
-    <li class="nav-item">
-        <a href="#about">ABOUT ME</a>
-    </li>
-    <li class="nav-item">
-        <h3>Deina's Bites</h3>
-    </li>
-    <li class="nav-item">
-        <a href="#">INSTAGRAM</a>
-        <a href="#">FACEBOOK</a>
-        <a href="#">YOUTUBE</a>
-    </li>
-    </nav>
+         <h3 class="title">Deina's Bites</h3>
+     </li>
 </div>
 
-    <h1 class="test">Cookies</h1>
-    <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="col-lg-4">
+     <li class="nav-item">
+         <a href="#">INSTAGRAM</a>
+         <a href="#">FACEBOOK</a>
+         <a href="#">YOUTUBE</a>
+     </li>
+</div>
+    </div>
+    </nav>
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/home_banner_pink1.png" alt="Cookie Slide 1" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="images/home_banner_lav2.png" alt="cookie slide 2" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="images/home_banner_blue3.png" alt="cookie slide 3" width="1100" height="500">
+              </div>
             </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
           </div>
+
+
+<div class="belowImg">
+    <h2>/ BEST SELLERS</h2>
+    <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+</div>  
 
 
           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
