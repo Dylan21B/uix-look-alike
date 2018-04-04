@@ -1,4 +1,144 @@
-.test{
-    background-color: blue;
-    color: white;
+$primaryFont: 'Nunito', sans-serif;
+$secondaryFont: 'PT Serif', serif;
+
+$ltBlue:#bddce3;
+$lterBlue:#c0e8dd;
+$lavender:#d2d5ea;
+$pink:#f6d9ea;
+$ltGray:#f3f3f3;
+$black:#191919;
+body{
+    margin-left:80px;
+    margin-right: 100px;
 }
+nav{
+    margin-top:50px;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+.active{
+    color: $pink;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    font: $primaryFont;
+    font-size: 12px;
+}
+
+ul{
+    list-style-type: none;
+}
+#title{
+    margin-left:36px;
+    font-family:$secondaryFont;
+    font-size:24px;
+    font-weight:bold;
+    margin-right:-60px;
+}
+nav li{
+    display: inline;
+    padding-right: 20px;
+}
+
+.belowImg{
+    text-align: center;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-content {
+    font-family:$secondaryFont;
+    font-size:40px;
+    position: absolute;
+    top: 146px;
+    left: 126px;
+    z-index: 20;
+    color: white;
+  }
+#nav-left{
+   margin: 10px;
+   margin-left: 100px;
+}
+#nav-right{
+    margin:10px;
+}
+// style for footer///////////////
+.footContainer{
+    margin: 100px;
+}
+#footer{
+    background-color: $pink;
+    margin: 80px;
+    height:400px;
+}
+.footHead{
+    font: $primaryFont;
+}
+.moveOver{
+    margin-left: -40px;
+}
+.liStyle{
+    font: $secondaryFont;  
+}
+#footLogo{
+    padding: 150px 0;
+}
+.footCol{
+    padding: 85px 0;
+}
+
+
+///////////////////////HOVER COOKIES ////////////////////
+#three-cookies{
+    display:flex;
+    text-align:center;
+    margin-left:120px;
+ }
+ 
+ #cookie-1{
+    height:318px;
+    width:288px;
+    background-image: url('../../images/white_choc-739.png');
+    background-size: 288px 318px;
+ }
+ 
+ #cookie-1:hover{
+    height:318px;
+    width:288px;
+    background-image: url('../../images/white_choc-qv_739.png');
+    background-size: 288px 318px;
+ }
+ 
+ #cookie-2{
+    height:318px;
+    width:288px;
+    background-image: url('../../images/oatmeal_bites.png');
+    background-size: 288px 318px;
+ }
+ 
+ #cookie-2:hover{
+    height:318px;
+    width:288px;
+    background-image: url('../../images/oatmeal_bites-qv.png');
+    background-size: 288px 318px;
+ }
+ 
+ #cookie-3{
+    height:318px;
+    width:288px;
+    background-image: url('../../images/jam_poppy.png');
+    background-size: 288px 318px;
+ }
+ 
+ #cookie-3:hover{
+    height:318px;
+    width:288px;
+    background-image: url('../../images/jam_poppy-qv.png');
+    background-size: 288px 318px;
+ }
+ .flex-item{
+ 
+    margin-right:27px;
+ }
